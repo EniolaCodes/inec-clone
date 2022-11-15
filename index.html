@@ -1,97 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Inec website clone</title>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <div class="topbar">
-          <a href="#See the Covid-19 protocols" class="heading-1">See the Covid-19 protocols</a>
-        </div>
-        <div class="navbar">
-          <img src="./images/logo.webp" alt="logo" class="logo">
-          <div class="menu">
-            <!-- <div class="dropdown1"> -->
-              <button class="dropbtn">Service</button>
-                <i class="fa-solid fa-caret-down"></i>
-                <div class="dropdown-content">
-                  <a href="#">Pre-Registration</a>
-                  <a href="#">Voter Registration</a>
-                  <a href="#">Voter Transfer</a>
-                  <a href="#">Information Update</a>
-                  <a href="#">PVC Collection</a>
-                  <a href="#">PVC Replacement</a>
-                </div>
-            </div>  
-            <p class="nav-list-1"><a href="#Sign In/Register">Sign/In Register</a></p>
-            <div class="portal">
-              <button class="portalbtn">Other Portals</button>
-                <i class="fa-solid fa-caret-down"></i>
-                <div class="portal-content">
-                  <a href="#">Registration Centres</a>
-                  <a href="#">Voter Registration Portal</a>
-                </div> 
-            </div>     
-            <p class="hero"><a href="#Help">Help</a></p>
-          </div>    
-        </div>
-        <div class="content">
-          <div class="content-1">
-            <div class="alpha">
-              <h1 class="greeting">Welcome!</h1>
-              <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat repellendus tempore assumenda ut aperiam praesentium tempora doloremque, cumque, sint at adipisci ducimus deleniti sequi fuga libero laborum accusantium illo enim dignissimos voluptates incidunt? Atque perferendis doloribus corrupti iusto, natus libero.</p>
-            </div>               
-            <div class="images">
-              <img src="./images/IMG-4285.JPG" alt="">
-              <img src="./images/IMG-4286.JPG" alt="">
-              <img src="./images/IMG-4287.JPG" alt="">
-            </div>
+    <!-- header============ -->
+    <header
+      class="bg-red-500 text-white text-sm font-base uppercase grid place-content-center"
+    >
+      see the covid-19 protocol
+    </header>
+    <!-- navbar============= -->
+    <nav class="p-4 bg-white md:flex justify-between mx-12">
+      <img class="h-15 lg:h-14" src="./images/logo.webp" alt="logo" />
+      <ul class="lg:flex justify-between space-x-8 pt-2 text-gray-700 font-base hidden">
+        <li class="dropdown inline-block relative">
+          <div class="flex">
+            <a href="#" class="hover:text-green-700 duration-700">Services</a>
+            <span class="p-2">
+              <svg
+                class="w-3 h-3 fill-black"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </span>
           </div>
-          <div class="content-2">
-            <h2 class="heading">Message from the INEC Chairman</h2>
-            <div class="beta">
-              <img src="./images/welcome2.jpg" alt="Chairman=photo" class="chairman-photo">
-            <div class="helo">
-              <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quis tempore repellat amet corporis expedita voluptate placeat numquam iure quasi! Ad quasi ea totam necessitatibus alias pariatur, suscipit enim sequi, inventore, debitis asperiores quibusdam voluptatum maiores! Ex neque voluptate architecto tenetur expedita corrupti! Rerum porro dicta sunt dolore, laborum suscipit quasi at consequuntur nam quia reiciendis vel iure magnam adipisci cumque deserunt, quibusdam quaerat culpa vero, possimus commodi ipsum atque quo sed! Recusandae omnis, odit sit dolor sunt ipsa voluptatibus alias consequatur consequuntur eum nemo dignissimos quo tenetur soluta magni fugiat, cumque incidunt, perferendis similique minima. Temporibus, ab cumque. Voluptas qui, atque numquam amet sint quia nostrum voluptatum? Delectus, voluptatum minima doloremque a quia facere repellat porro enim atque odio dignissimos ipsam dolore cupiditate distinctio placeat tempore. Iure accusamus distinctio, ab accusantium voluptates ex? Quam voluptate alias amet dolores perferendis itaque reprehenderit maiores consequatur a consequuntur sed eum repellendus, architecto unde, accusamus ullam voluptatem. Aspernatur, temporibus! Id sequi porro ratione, dicta, vero deleniti rem exercitationem, maiores ipsum perferendis voluptatum ducimus! Natus deserunt eos facilis deleniti modi dolore ipsum repellendus molestiae placeat reiciendis animi, suscipit odio sint odit autem necessitatibus culpa consequuntur est sit! Nulla ipsam ea, debitis nesciunt accusamus provident totam quis repellat sit eveniet dicta, molestiae voluptas rem fugiat quos, quidem ducimus. Natus, aperiam vel. Culpa quas, quia illo iure odio aliquam assumenda! Maiores minima rerum minus fugiat praesentium vel eaque sed voluptas amet vero dicta adipisci deleniti numquam impedit tenetur itaque fugit, aut aperiam? Tenetur a dolorem voluptas fuga quod totam vitae ipsum cumque, necessitatibus aperiam repellat, nam doloribus voluptatum doloremque. Id libero dolorem qui amet, quos similique ratione at alias aspernatur placeat vitae eaque. Ea possimus quos doloribus a animi magni sapiente nemo quis praesentium error. Itaque illum animi ab excepturi alias laborum natus reiciendis iusto perferendis.</p>
-              <h5>Lorem, ipsum dolor.</h5>
-              <p class="name">Lorem ipsum dolor sit amet.</p>
-            </div>
+          <ul class="dropdown-menu absolute hidden bg-gray-50 pt-1 px-8 space-y-5 text-base w-52">
+            <li class=""><a href="#" class="hover:text-green-700">Pre-Registration</a></li>
+            <li class=""><a href="#" class="hover:text-green-700">Voter Review</a></li>
+            <li class=""><a href="#" class="hover:text-green-700">Voter Transfer</a></li>
+            <li class=""><a href="#" class="hover:text-greem-700">Information Update</a></li>
+            <li class=""><a href="#" class="hover:text-green-700">PVC Collection</a></li>
+            <li class=""><a href="#" class="hover:text-green-700">PVC Replacement</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="hover:text-green-700">Sign In/Register</a>
+        </li>
+        <li class="dropdown inline-block relative">
+          <div class="flex">
+            <a href="#" class="hover:text-green-700">Other Portals</a>
+            <span class="p-2">
+              <svg
+                class="w-3 h-3 fill-black"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </span>
           </div>
-        </div>
-        <div class="footer">
-        <hr>
-        <div class="footer-content">
-          <div class="footer-1">
-            <div class="footer-logo">
-              <img src="./images/logo.webp" alt="logo" class="logo2">
-              <p class="footer-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus atque est ab molestias natus modi adipisci sunt soluta praesentium minus, blanditiis, reprehenderit consequuntur?</p>
-            </div>
+          <ul class="dropdown-menu absolute hidden bg-gray-50 text-base pt-1 px-8 w-64 space-y-5">
+            <li class=""><a href="#" class="hover:text-green-700">Registration Centers</a></li>
+            <li class=""><a href="#" class="hover:text-green-700">Voter Verification Portal</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="hover:text-green-700">Help</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- hero1========================= -->
+    <div class="people">
+      <div class="content">
+        <h2 class="welcome">Welcome!</h2>
+        <p class="note">This is the INEC Continuous Voter Registration Portal. As a New Voter, you can Pre-Register online, or as a Registered Voter, you can Review your Voter Registration, Request to Update your Information or Transfer your Voter Registration to another Polling Unit.</p>
+          <div class="btn">
+            <button class="btn1">Get Started</button>
+            <button class="btn2">Learn More</button>
           </div>
-          <div class="footer-2">
-            <div class="info">
-              <p class="info-c">Contact</p>
-              <p class="info-p"><a href="icc">iccc@gov.ng</a></p>
-              <p class="num">0700-000-0000</p>
-            </div>
-          <div class="footer-3">
-            <p>Quick links</p>
-            <div class="link">
-              <p><a href="visit">Visit INEC website</a></p>
-              <p><a href="portal">Voters Verification Portal</a></p>
-              <p><a href="centre">Find Registration Centre</a></p>
-              <p><a href="terms">Privacy Policy, Terms & Conditions</a></p>
-            </div>
-          </div>
+      </div>
+    </div>  
+    <!-- hero2============================ -->
+    <div class="pt-12">
+      <p class="text-3xl font-semi-bold grid place-content-center">Message from the INEC Chairman</p>
+      <div class="md:flex justify-between mx-16">
+        <img src="./images/welcome2.jpg" alt="welcome" class="h-25 w-auto">
+        <div class="pt-12 text-justify md:pt-8">
+          <p class="leading-8 md:leading-loose text-xl font-light">I am pleased to introduce the Commission's online portal for the Continuous Voter Registration (CVR).
+          <p class="leading-8 pt-5 md:leading-loose text-xl font-light">Since the resumption of voter registration on a continuous basis in 2017, the Commission has been looking at ways to make voter registration easier, more accessible, and user-friendly not only to the multitude of prospective registrants, but also to registered voters who may wish to transfer their registration or have had their Permanent Voters' Cards (PVCs) missing or defaced. This is one of the Commission's innovations to enhance voter experience by making the registration exercise faster, easier, and less crowded than before. Given the lingering COVID-19 situation, the new registration solution will help decongest registration centers, reduce delays, and allow prospective registrants to schedule appointments and monitor their applications from the comfort of their homes.</p>
+          <p class="leading-8 pt-5 md:leading-loose text-xl font-light">The portal allows a two-step registration process in which first, prospective registrants login to pre-register by providing their basic biodata and some biometrics and second to complete the registration by physically presenting themselves at a designated registration center of their choice.</p>
+          <p class="leading-8 pt-5 md:leading-loose text-xl font-light">This considerably eases the process as a substantial part of the exercise would have been completed online before physical contact with registration officials. I urge all eligible Nigerians to take advantage of the services offered by the Commission through this portal. </p>
+          <p class="font-bold text-lg pt-5">Professor Mahmood Yakubu</p>
+          <p class="pt-2 text-medium font-light">Chairman, Independent National Electoral Commission.</p>
         </div>
       </div>
+    </div>
   </body>
 </html>
